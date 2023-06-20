@@ -8,56 +8,60 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="header">
+    <div class="header block">
         <div class="left-content">
             <div>Header Logo</div>
         </div>
         <div class="right-content">
-            <a href="#">link 1</a>
-            <a href="#">link 2</a>
-            <a href="#">link 3</a>
+            <a href="#" class="top-links">link 1</a>
+            <a href="#" class="top-links">link 2</a>
+            <a href="#" class="top-links">link 3</a>
         </div>
     </div>
-    <div class="welcome-block block">
-        <div class="welcome-block-left">
-            <div>This website is awesome!</div>
-            <div>This website has some subtext here... </div>
-            <button>Sign Up</button>
-        </div>
-        <div class="welcome-block-right">
-            <img src="img/steel-rope.jpg" class="welcome-img">
+    <div class="welcome-block">
+        <div class ="welcome-block-content block">
+            <div class="welcome-block-left">
+                <div class="welcome-headline">This website is awesome!</div>
+                <div class="welcome-subtext">This website has some subtext here. It is a pretty neat website if I do say so myself. It should win some awards.</div>
+                <button>Sign Up</button>
+            </div>
+            <div class="welcome-block-right">
+                <img src="img/steel-rope.jpg" class="welcome-img">
+            </div>
         </div>
     </div>
-    <div class="project-block block">
-        <div>Some Random Information</div>
-        <div class="project-card-container">
-            <div class="project-card">
-                <img src="img/fall-canoe.jpg" class="card-img">
-                <div>Some subtext about the image above</div>
-            </div>
-            <div class="project-card">
-                <img src="img/fall-canoe.jpg" class="card-img">
-                <div>Some subtext about the image above</div>
-            </div>
-            <div class="project-card">
-                <img src="img/fall-canoe.jpg" class="card-img">
-                <div>Some subtext about the image above</div>
-            </div>
-            <div class="project-card">
-                <img src="img/fall-canoe.jpg" class="card-img">
-                <div>Some subtext about the image above</div>
+    <div class="project-block">
+        <div class="project-title-and-cards-container">
+            <div id="project-block-title">Some Random Information</div>
+            <div class="project-card-container block">
+                <div class="project-card">
+                    <img src="img/fall-canoe.jpg" class="card-img">
+                    <div class="card-text">Some subtext about the image above</div>
+                </div>
+                <div class="project-card">
+                    <img src="img/fall-canoe.jpg" class="card-img">
+                    <div class="card-text">Some subtext about the image above</div>
+                </div>
+                <div class="project-card">
+                    <img src="img/fall-canoe.jpg" class="card-img">
+                    <div class="card-text">Some subtext about the image above</div>
+                </div>
+                <div class="project-card">
+                    <img src="img/fall-canoe.jpg" class="card-img">
+                    <div class="card-text">Some subtext about the image above</div>
+                </div>
             </div>
         </div>
     </div>
     <div class="quote-block block">
-        <div id="quote">Inspiring quote here</div>
-        <div id="quote-source">- Source</div>
+        <div id="quote">If there is anything that this horrible tragedy can teach us, it's that a male model's life is a precious, precious commodity. Just because we have chiseled abs and stunning features, it doesn't mean that we too can't not die in a freak gasoline fight accident.</div>
+        <div id="quote-source">- Derek Zoolander</div>
     </div>
-    <div class="cta-block block">
-        <div class="cta-card-container">
+    <div class="cta-block">
+        <div class="cta-card-container block">
             <div class="cta-card-left">
-                <div>Call to action! It's time!</div>
-                <div>Sign up for our product...</div>
+                <div class="cta-cta">Call to action! It's time!</div>
+                <div class="cta-subtext">Sign up for our product...</div>
             </div>
             <div class="cta-card-right">
                 <button id="border-button">Sign Up</button>
@@ -65,7 +69,7 @@
         </div>
     </div>
     <div class="footer block">
-        <div>Copyright @ The Odin Project 2021</div>
+        <div class="copyright">Copyright @ The Odin Project 2021</div>
     </div>
   </body>
 </html>
