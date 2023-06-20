@@ -1,0 +1,103 @@
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.left-content {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-content {
+    font-size: 18px;
+}
+
+/* general */
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* welcome block */
+.welcome-block {
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.welcome-img {
+    width: 300px;
+}
+
+/* project block */
+.project-block {
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card-container {
+    display: flex;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+}
+
+/* quote block */
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+#quote {
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+}
+
+#quote-source {
+    align-items: flex-end;
+}
+
+/* call to action block */
+/* .cta-block {
+    justify-content: center;
+} */
+
+.cta-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+}
+
+.cta-card-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#border-button {
+    border: 1px solid white;
+}
+
+/* footer */
+.footer {
+    background-color: #1F2937;
+}
+
+/* type selectors */
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+button {
+    background-color: #3882f6;
+    color: white;
+}
